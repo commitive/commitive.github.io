@@ -1,0 +1,198 @@
+/* --------------------- Fonts Pages -----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900');
+
+/*
+font-family: 'Heebo', sans-serif;
+*/
+
+@import url('font-awesome.css');
+@import url('themify-icons.css');
+@import url('linear-icons.css');
+@import url('animate.css');
+@import url('owl.css');
+@import url('jquery.fancybox.css');
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 11px;
+}
+/* --------------------- FEATURES Pages -----------------*/
+
+.features-box-thumbnail{
+    margin-top: 2em;
+}
+
+.features-title-box {
+    background-color: #7100bb;
+    color: #fff;
+    padding: 1em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.features-box-right {
+    text-align: right;
+}
+
+.features-box-left{
+    text-align: left;
+}
+
+.features-box-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.features-box-left>p, .features-box-right>p {
+    /*font-size: 0.8em;*/
+    margin-top: 0.5em;
+}
+
+.col-sm-6.features-box-right>p, .col-sm-6.features-box-left>p {
+    text-align: justify;
+}
+
+.cla-header {
+    margin-bottom: 60px;
+}
+.cla-header, .cla-header p {
+    font-size: 18px;
+}
+.cla-features {
+    margin-bottom: 60px;
+}
+
+hr.section-divider {
+    margin-top: 52px;
+    margin-bottom: 42px;
+}
+
+hr.section-divider:before {
+    --x-height-multiplier: 0.342;
+    --baseline-multiplier: 0.22;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: .6em;
+}
+
+.cla-title-row {
+    color: #ff4200;
+    padding: 30px 0px;
+    letter-spacing: 2px;
+}
+
+.cla-title-row h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0;
+    line-height: 60px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex .vertical-middle {
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 996px) {
+    .feature-image {
+       order: 2;
+    }
+
+    .feature-text {
+        order: 1;
+    }
+ }
+
+.row {
+    margin: 20px 0;
+}
+
+.cla-features code {
+    visibility: visible;
+    background: transparent;
+    color: #cc3050;
+}
+.cla-home-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #51718c;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.cla-features .inner-box {
+    border-right: 1px solid #f4f9fe;
+    margin: 10px 0;
+}
+
+.cla-features .inner-box.last {
+    border-right: none;
+    margin: 10px 0;
+}
+
+.code .track .deploy {
+    margin-bottom: 25px;
+}
+
+/** TO TOP **/
+
+#return-to-top {
+    position: fixed;
+    bottom:130px;
+    right: 20px;
+    background: #ff4200;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 3;
+    text-align: center;
+}
+
+#return-to-top img {
+    filter: invert(100%);
+    display: block;
+    margin-top: 25%;
+    height: 25px;
+    margin-left: 25%;
+}

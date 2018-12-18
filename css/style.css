@@ -79,9 +79,9 @@ font-family: 'Heebo', sans-serif;
 
 body {
     font-family: 'Heebo', sans-serif;
-    font-size:18px;
+    font-size:5px;
     color:#404040;
-    line-height:1.6em;
+    line-height:1.em;
     font-weight:400;
     background:#ffffff;
     -webkit-font-smoothing: antialiased;
@@ -91,7 +91,7 @@ body {
 a{
     text-decoration:none;
     cursor:pointer;
-    color:#ff4200;
+    color:#282b3a;
 }
 
 a:hover,a:focus,a:visited{
@@ -127,7 +127,7 @@ p{
 
 ::selection {
     color: #fff;
-    background: #ff4200;
+    background: #43b3ab;
 }
 
 ::-moz-selection {
@@ -207,7 +207,7 @@ ul,li{
     padding:12px 45px;
     line-height:26px;
     /*background:#404040;*/
-    background:#ff4200;
+    background:#43b3ab;
     font-size:16px;
     font-weight:400;
     color:#ffffff;
@@ -680,7 +680,7 @@ img{
     left:0px;
     bottom:20px;
     width:0px;
-    border-bottom:2px solid #ff4200;
+    border-bottom:2px solid #43b3ab;
     transition:all 500ms ease;
     -moz-transition:all 500ms ease;
     -webkit-transition:all 500ms ease;
@@ -697,7 +697,7 @@ img{
 .main-menu .navigation > li:hover > a,
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li.current-menu-item > a{
-    color:#ff4200;
+    color:#282b3a;
     opacity:1;
 }
 
@@ -728,7 +728,7 @@ img{
     z-index:100;
     display:none;
     background:#ffffff;
-    border-top:2px solid #ff4200;
+    border-top:2px solid #43b3ab;
     -webkit-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
     -ms-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
     -o-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
@@ -890,7 +890,7 @@ img{
 /*Banner One*/
 .banner-one{
     position:relative;
-    padding:150px 0px 150px;
+    padding:150px 0px 75px;
     background-position:left top;
     background-repeat:no-repeat;
     background-size:cover;
@@ -908,7 +908,7 @@ img{
 
 .banner-one .text-column h4{
     font-size:18px;
-    color:#ff4200;
+    color:#43b3ab;
     text-transform:capitalize;
     margin-bottom:30px;
 }
@@ -1785,13 +1785,13 @@ img{
 .default-form input:hover,
 .default-form select:hover,
 .default-form textarea:hover{
-    border-color:#ff4200;
+    border-color:#282b3a;
 }
 
 .default-form input:focus,
 .default-form select:focus,
 .default-form textarea:focus{
-    border-color:#ff4200;
+    border-color:#282b3a;
 }
 
 .default-form input.error,
@@ -1850,7 +1850,7 @@ img{
     font-size:20px;
     font-weight:400;
     text-transform:capitalize;
-    color:#ff4200;
+    color:#43b3ab;
     margin-bottom:20px;
 }
 
@@ -1886,7 +1886,7 @@ img{
 }
 
 .footer-style-one .social-links li a:hover{
-    color:#ff4200;
+    color:#43b3ab;
 }
 
 .footer-style-one.dark-version .social-links li a:hover{
@@ -1919,7 +1919,7 @@ img{
 }
 
 .footer-style-one .links li a:hover{
-    color:#ff4200;
+    color:#43b3ab;
 }
 
 .footer-style-one.dark-version .links li a:hover{
@@ -4569,7 +4569,7 @@ img{
 
 .generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 .generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
-    border-color: #ff4200 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ff4200;
+    border-color: #43b3ab rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #43b3ab;
     color: #fff;
 }
 
@@ -4805,7 +4805,7 @@ img{
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 0px;
-    background: url('/images/icons/pin.svg');
+    background: url('/images/icons/pin-2.png');
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: 0% 50%;
@@ -4820,8 +4820,8 @@ img{
     margin: 0 1% 2%;
     line-height: 95px;
     padding-bottom: 20px;
-    border-left: 5px solid #ff4200;
-    color: #ff4200;
+    border-left: 5px solid #43b3ab;
+    color: #43b3ab;
     background-color: #fff;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -4844,7 +4844,7 @@ img{
 }
 
 .cla-careers .inner-box:hover .position{
-    color: #ff4200;
+    color: #43b3ab;
     transition: color 0.3s ease;
     cursor: pointer;
 

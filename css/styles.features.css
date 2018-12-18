@@ -85,7 +85,7 @@ hr.section-divider:before {
 }
 
 .cla-title-row {
-    color: #ff4200;
+    color: #43b3ab;
     padding: 30px 0px;
     letter-spacing: 2px;
 }
@@ -167,7 +167,7 @@ h3 {
     position: fixed;
     bottom:130px;
     right: 20px;
-    background: #ff4200;
+    background: #282b3a;
     width: 60px;
     height: 60px;
     display: block;
